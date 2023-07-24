@@ -58,3 +58,7 @@ gem 'devise'
 # ActiveStorage導入部分
 gem 'mini_magick' 
 gem 'image_processing'
+
+group :production do
+  gem 'pg'
+end
